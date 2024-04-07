@@ -8,7 +8,7 @@ public class AlunoFac extends AlunoTec{
             status = "Aluno fac aprovado";
             System.out.printf(" " + status);
         }else if (media>=4 && media<=5.9){
-            status = "Aluno fac ou em recuperação";
+            status = "Aluno fac reprovado ou em recuperação";
             System.out.printf(" " + status);
         }
     }
